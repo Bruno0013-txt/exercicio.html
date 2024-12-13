@@ -8,16 +8,16 @@
 <h1> Formulário de Cadastro</h1>
 <body>
     <form>
-        <Label><b>Nome </b> 
-            <input name="Nome"> 
-        </Label>
+        <Label for="Name" Placheholder="Seu Nome">Seu Nome
+           <input id="name" type="text"placeholder="Seu Nome">
         <br />
-        <label> <b>E-mail</b>
-            <input id type="email">
+        </Label>
+        <label for="E-mail"placeholder="Seu e-mail"> E-mail
+            <input id="E-mail" type="email"placeholder="Seu e-mail ">
         </label>
         <br />
-        <label> <b>Senha</b>
-            <input id type="password">
+        <label for="Senha"placeholder="Senha"> Senha
+            <input id="password"type="password"placeholder="Senha">
         </label>
         <br />
     <button type="submit"> 
@@ -26,8 +26,3 @@
     </form>
 </body>
 </html>
-
-git add .
-git commit -m "Commit message"
-git push origin master
-git checkout -b new-branch
